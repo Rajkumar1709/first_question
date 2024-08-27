@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_links{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: verdana;
+}
+.nav_links:hover{
+    text-decoration: underline;
+}
+#d2{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;  
+}
+#search{
+    width: 30vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    padding-left: 30px;
+}
+#search::placeholder{
+    color: white;
+}
+.display_1{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+#s1{
+    width: 95vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+.d1{
+    display: flex;
+    flex-direction: column;
+    width: calc(95vw/5.2);
+    height: 60vh;
+    border: 0.5px solid rgb(171, 169, 169);
+    border-radius: 5px;
+}
+.d2{
+    height: 30vh;
+}
+.d3{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#p1,#p2,#p3,#p4,#p5{
+    background: url(https://images.meesho.com/images/products/118148737/5kbkh_400.webp);
+    background-repeat: no-repeat;
+    background-size: 300px 250px;
+}
+label{
+    color: black;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(185, 181, 181);
+    border-radius: 10px;
+}
+button{
+    padding:8px 35px 8px 35px;
+    background-color: transparent;
+    border: 0px solid black;
+    border-radius: 10px;
+    background-color: yellow;
+    font-family: sans-serif;
+    font-weight: bold;
+}
