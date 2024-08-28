@@ -46,6 +46,9 @@ nav{
     justify-content: center;
     align-items: center;
     backdrop-filter: blur(10px);
+    background: url(images/file_2024-08-27_13.04.00.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
 }
 #s1{
     width: 95vw;
@@ -70,6 +73,7 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    background-color: white;
 }
 #p1,#p2,#p3,#p4,#p5{
     background: url(https://images.meesho.com/images/products/118148737/5kbkh_400.webp);
