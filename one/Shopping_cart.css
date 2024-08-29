@@ -39,3 +39,10 @@ nav{
 #search::placeholder{
     color: white;
 }
+#s1{
+    width: 100vw;
+    height: 90vh;
+    background: url(images/file_2024-08-27_13.04.00.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+}

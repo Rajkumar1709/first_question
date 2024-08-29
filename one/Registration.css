@@ -39,3 +39,107 @@ nav{
 #search::placeholder{
     color: white;
 }
+#s1{
+    width: 100vw;
+    height: 90vh;
+    background: url(images/file_2024-08-27_13.04.00.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#signup_div{
+    border: 2px solid white;
+    width: 25vw;
+    height: 58vh;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#reg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px 0px 10px 0px;
+}
+#reg hr{
+    width: 7vw;
+    border-radius: 20px;
+    height: 1px;
+    border: 1px solid black;
+    background-color: black;
+}
+#acc{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: verdana;
+}
+#names{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 1vh;
+    align-items: center;
+}
+#names input{
+    width: 9vw;
+}
+input{
+    height: 4vh;
+    width: 20vw;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+input::placeholder{
+    color: white;
+}
+#inpt{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-around;
+}
+#chkbx{
+    width: auto;
+    height: auto;
+    margin-right: 15px;
+}
+#t_c{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+button{
+    width: 21vw;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: purple;
+    font-size: 15px;
+    
+}
+button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#last{
+    color: white;
+    font-size: 15px;
+}
+#last a{
+    color: yellow;
+    text-decoration: none;
+}
+#last a:hover{
+    text-decoration: underline;
+}

@@ -132,12 +132,12 @@ nav{
 }
 .account a{
     text-decoration: none;
-    color: white;
+    color: yellow;
 }
 #password{
     margin-top: -25px;
 
 }
 .account a:hover{
-    color: rgb(185, 122, 245);
+   text-decoration: underline;
 }
