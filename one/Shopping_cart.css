@@ -45,4 +45,113 @@ nav{
     background: url(images/file_2024-08-27_13.04.00.png);
     background-repeat: no-repeat;
     background-size: 100vw 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#shp_cart{
+    width: 70vw;
+    height: 80vh;
+    background-color: white;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    border: 3px dashed black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#shp_cart #title{
+    display: flex;
+    width: 60vw;
+    height: 5vh;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+.products{
+    width: 60vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.p1,.p2{
+    width:13vw;
+    height: 20vh;
+}
+#div1{
+    background: url(https://www.harney.com/cdn/shop/products/HT_RTD_Organic_Apple_Juice_70030_54-8041.jpg?v=1653426762&width=1024);
+    background-repeat: no-repeat;
+    background-size: 10vw 20vh;
+}
+#div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    font-family: sans-serif;
+}
+#div2 img{
+    width: 25px;
+    height: 25px;
+}
+.btns{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px transparent;
+    background-color: rgb(224, 220, 220);
+}
+.btns:hover{
+    background-color: rgb(175, 172, 172);
+}
+#div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#div4{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+}
+#div4 h3{
+    font-size: 25px;
+}
+hr{
+    width: 44.5vw;
+    margin-left: 16vw;
+    height: 1px;
+    background-color: black;
+}
+#last{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-left: 700px;
+    gap: 10px;
+}
+#last_d1{
+    display: flex;
+    justify-content: space-between;
+    width: 14vw;
+    font-family: sans-serif;
+}
+#chk{
+    width: 15vw;
+    padding: 7px;
+    background-color: rgb(133, 156, 220);
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+#chk:hover{
+    background-color: rgb(165, 115, 212);
 }
